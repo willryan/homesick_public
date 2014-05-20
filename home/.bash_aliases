@@ -1,4 +1,4 @@
-alias ls="ls -GF"
+alias ls="ls -GF --color=auto"
 alias st="git status"
 alias gadl="git add . -A ; git status"
 alias bbn="gem install bundler; bundle"
