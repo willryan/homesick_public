@@ -1,4 +1,8 @@
-alias ls="ls -GF --color=auto"
+if [ "$(uname)" == "Darwin" ]; then
+  alias ls="ls -GF"
+else
+  alias ls="ls -GF --color=auto"
+fi
 alias st="git status"
 alias gadl="git add . -A ; git status"
 alias bbn="gem install bundler; bundle"
@@ -9,6 +13,7 @@ alias gcim="git commit -m"
 alias giff="git diff"
 alias bexec="bundle exec"
 alias bruby="bundle exec ruby"
+alias brails="bundle exec rails"
 alias brackup="bundle exec rackup"
 alias guh='git log origin/master..HEAD'
 alias giton='git checkout'
