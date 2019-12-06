@@ -1,0 +1,50 @@
+[
+  { 
+    "key": "cmd+]",                   
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus" },
+  { 
+    "key": "cmd+shift+]",             
+    "command": "editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor" 
+  },
+  { 
+    "key": "cmd+o",                   
+    "command": "workbench.action.navigateBack" 
+  },
+  { 
+    "key": "cmd+r cmd+t",             
+    "command": "workbench.action.tasks.runTask" 
+  },
+  { 
+    "key": "cmd+r t",                 
+    "command": "workbench.action.tasks.test" 
+  },
+  { 
+    "key": "cmd+r cmd+r",             
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+.",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "workbench.action.quickSwitchWindow"
+  }
+]

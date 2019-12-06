@@ -1,0 +1,93 @@
+{
+  // Place your settings in this file to overwrite the default settings
+  "editor.cursorStyle": "line-thin",
+  "editor.minimap.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/yarn_packages": true,
+    "**/bower_components": true,
+    "**/vendor": true,
+    "**/tmp": true,
+    "**/*[^\\w]min.js": true,
+    "**/log": true,
+    "**/dist": true,
+    "**/system": true,
+    "**/doc": true,
+    "**/public/webpack": true,
+    "**/tags": true
+  },
+  "workbench.editor.enablePreview": false,
+  "ruby.locate": {
+    "exclude": "{**/@(vendor|node_modules|bower_components|tmp|.*),**/@(vendor|node_modules|bower_components|tmp|.*)/**}",
+    "include": "**/*.rb"
+  },
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "terminal.integrated.shellArgs.osx": [
+    "-l"
+  ],
+  "terminal.integrated.scrollback": 10000,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": -1,
+  "vim.easymotion": true,
+  "vim.leader": ",",
+  "typescript.check.tscVersion": false,
+  "window.nativeTabs": false,
+  "files.associations": {
+    "*.thor": "ruby",
+    "*.graphql": "graphql",
+    "*.jsx": "javascriptreact"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": true
+  },
+  "vim.autoindent": false,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "editor.formatOnSave": true,
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [{
+      "scope": "storage.type",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    }]
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "ruby.rubocop.onSave": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": true,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
+  },
+  "git.autofetch": true,
+  "[graphql]": {},
+  "explorer.confirmDragAndDrop": false,
+  "postcssSorting.config": {
+    "properties-order": "alphabetical"
+  },
+  "postcssSorting.showErrorMessages": true,
+  "gitlens.keymap": "chorded",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "emmet.excludeLanguages": [
+    "markdown",
+    "typescript"
+  ],
+  "gitlens.historyExplorer.enabled": true,
+  "svgviewer.enableautopreview": true
+}
